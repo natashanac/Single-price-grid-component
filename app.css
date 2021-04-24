@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.all {
+    font-size: 14px;
+    font-family: Karla;
+    font-weight: 400;
+    margin: 20% 10%;
+}
+
+.box-group {
+    box-shadow: 12px 12px 30px 12px  hsl(204, 18%, 84%);
+}
+
+.box {
+    padding: 3% 7% 7% 7%;
+}
+
+.first {
+    background-color: white;
+    color: hsl(218, 22%, 67%);
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.first span {
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+}
+
+.first p {
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: white;
+}
+
+.second {
+    background-color: hsl(179, 62%, 43%);
+    color: hsl(204, 43%, 93%);
+}
+
+.big {  
+    font-size: 1.8rem;
+    margin-right: 0.6rem;
+    color: white;
+}
+
+.blueish {
+    color:  hsl(179, 52%, 65%);
+}
+
+.margin {
+    margin-bottom: 2rem;
+    font-size: 15px;
+}
+
+.third {
+    background-color:  hsl(179, 60%, 46%);
+    color: hsl(204, 43%, 93%);
+    line-height: 1.5;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: none;
+    width: 100%;
+    box-shadow: 2px 2px 15px hsl(179, 63%, 32%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin: 1.5rem 0;
+    
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 900px) {
+    .all {
+        font-size: 14px;
+        font-weight: 400;
+        margin: 10% 25%;
+    }
+
+    .box {
+        padding: 4% 7% 4% 7%;
+        
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    
+    }
+
+    .first {
+        font-size: 17px;
+        border-radius: 0.5rem 0.5rem 0 0;
+    }
+
+    .second-third {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        
+    }
+
+    .second {
+        width: 50%;
+        border-radius: 0 0 0 0.5rem;
+    }
+
+    .third {
+        width: 50%;
+        border-radius: 0 0 0.5rem 0;
+    }
+}
